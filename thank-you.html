@@ -454,4 +454,11 @@
             $('#overlayy').removeClass("active");
         }
     </script>
+    <script>
+  // 1. Build a fake order ID: "ORD-" + the current time in milliseconds
+  var orderId = 'ORD-' + Date.now();
+
+  // 2. Find the empty <span id="order-id"> on the page and show the ID inside it
+  document.getElementById('order-id').textContent = orderId;
+    </script>
 </body>
