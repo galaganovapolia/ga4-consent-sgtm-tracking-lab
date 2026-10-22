@@ -6,3 +6,6 @@ This project prepares trustworthy data for later analysis through correct data c
 ## Evidence:
 
 ## What I learned:
+There website pages have two error types:
+- the first error type related to the missing scripts in the code. Once the scripts were added before main.js (because a library must load before the code that uses it) the errors disappear
+- the second error was common for all pages which lacked the zoom gallery section on the web page. Once I added a code which searched for the gallery and omit it if the gallery hadn't been found, the error disappear.
