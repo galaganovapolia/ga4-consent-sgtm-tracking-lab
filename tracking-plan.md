@@ -12,4 +12,4 @@ SKU_007 item_name Full Set for photographer item_category electronics price 500 
 SKU_008 item_name Face Masks item_category accessories price 15 discount 4 currency USD
 SKU_009 item_name Watch item_category accessories price 50 discount 19 currency USD
 
-* SKU_001 eg.: Customer pays $200, $50 off: then price = 200, discount = 50, and the page shows $200 with $250.
+* customer pays price; discount is the amount off per unit
