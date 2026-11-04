@@ -15,3 +15,14 @@
 | SKU_009 | Watch | accessories | 50 | 19 |
 
 * customer pays price; discount is the amount off per unit
+
+## Funnel mapping
+
+| Event | When it fires | Trigger type |
+| --- | --- | --- |
+| view_item_list | shop.html loads (the product list is shown) | Page load |
+| view_item | product-details.html loads | Page load |
+| add_to_cart | Click on Add to cart on the product page, or on a bag icon on shop.html | Click |
+| view_cart | cart.html loads | Page load |
+| begin_checkout | Click on a Checkout now button on cart.html | Click |
+| purchase | thank-you.html loads | Page load |
